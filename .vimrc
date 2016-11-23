@@ -5,3 +5,4 @@ set nocompatible
 syntax on
 syntax enable
 set background=dark
+colorscheme atom-dark-256
