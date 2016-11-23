@@ -4,3 +4,4 @@ set nocompatible
 "--------------- Visuals ---------------"
 syntax on
 syntax enable
+set background=dark
