@@ -11,3 +11,6 @@ set t_Co=256
 
 "Set the colors of the line number bar to the editor background color
 hi LineNr ctermbg=bg
+
+"Set the same setting for the lin number bar if using macvim
+hi LineNr guibg=bg
