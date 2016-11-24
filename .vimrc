@@ -35,3 +35,6 @@ set guioptions-=l
 set guioptions-=L
 set guioptions-=r
 set guioptions-=R
+
+"Remove the GUI tabs on macvim
+set guioptions-=e
