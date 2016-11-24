@@ -41,3 +41,9 @@ set guioptions-=e
 
 "Show the line numbers
 set number
+
+"Add some padding on the left handside - looks good if not using the number
+"line on the left hand side
+"set foldcolumn=1
+"hi foldcolumn ctermbg=bg
+"hi foldcloumn guibg=bg
