@@ -21,3 +21,8 @@ set t_Co=256
 "Set the colors of the line number bar to the editor background color
 hi LineNr ctermbg=bg
 hi LineNr guibg=bg
+
+"Set the background of the split border to background color of the editor and
+"the color of the split line to red
+hi vertsplit ctermbg=red ctermfg=bg
+hi vertsplit guibg=#96C697 guifg=bg
