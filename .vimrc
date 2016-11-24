@@ -47,3 +47,6 @@ set number
 "set foldcolumn=1
 "hi foldcolumn ctermbg=bg
 "hi foldcloumn guibg=bg
+
+"Make backspace behave like every other editor.
+set backspace=indent,eol,start
