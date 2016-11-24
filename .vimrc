@@ -26,3 +26,6 @@ hi LineNr guibg=bg
 "the color of the split line to red
 hi vertsplit ctermbg=red ctermfg=bg
 hi vertsplit guibg=#96C697 guifg=bg
+
+hi StatusLine ctermbg=red ctermfg=white
+hi StatusLineNC ctermbg=black ctermfg=white
