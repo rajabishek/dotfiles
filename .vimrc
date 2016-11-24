@@ -29,3 +29,9 @@ hi vertsplit guibg=#96C697 guifg=bg
 
 hi StatusLine ctermbg=red ctermfg=white
 hi StatusLineNC ctermbg=black ctermfg=white
+
+"Disable the scroll bars that are displayed on macvim
+set guioptions-=l
+set guioptions-=L
+set guioptions-=r
+set guioptions-=R
