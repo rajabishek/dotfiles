@@ -38,3 +38,6 @@ set guioptions-=R
 
 "Remove the GUI tabs on macvim
 set guioptions-=e
+
+"Show the line numbers
+set number
