@@ -71,3 +71,6 @@ augroup END
 "--------------- Laravel Specific Commands ---------------"
 "Make it easy to edit the routes file
 nmap <Leader>ler :e routes/web.php<cr>
+
+"Make it easy to open the configuration file
+nmap <Leader>lec :e config/app.php<cr>
