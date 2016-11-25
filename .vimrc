@@ -50,3 +50,6 @@ set number
 
 "Make backspace behave like every other editor.
 set backspace=indent,eol,start
+
+"Set the leader key as comma
+let mapleader=','
