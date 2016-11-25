@@ -80,3 +80,6 @@ nmap <Leader>lmc :!clear && php artisan make:controller
 
 "Make it easy to run the artisan make command
 nmap <Leader>lm :!clear && php artisan make:
+
+"Make it easy to search for controllers
+nmap <Leader><Leader>c :CtrlP<cr>app/Http/Controllers/
