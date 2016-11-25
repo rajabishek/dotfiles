@@ -56,3 +56,14 @@ let mapleader=','
 
 "Turn off the annoying error bells
 set noerrorbells visualbell t_vb=
+
+"--------------- Indentation ---------------"
+"Set proper indentation width
+set tabstop=4
+set shiftwidth=4
+augroup autoindentation
+    "Clear out the contents of the group before proceeding
+    autocmd!
+    autocmd FileType scss setlocal shiftwidth=2 tabstop=2
+    autocmd FileType rb setlocal shiftwidth=2 tabstop=2
+augroup END
