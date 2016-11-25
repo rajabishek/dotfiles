@@ -77,3 +77,6 @@ nmap <Leader>lec :e config/app.php<cr>
 
 "Make it easy to create a new controller
 nmap <Leader>lmc :!clear && php artisan make:controller
+
+"Make it easy to run the artisan make command
+nmap <Leader>lm :!clear && php artisan make:
