@@ -67,3 +67,7 @@ augroup autoindentation
     autocmd FileType scss setlocal shiftwidth=2 tabstop=2
     autocmd FileType rb setlocal shiftwidth=2 tabstop=2
 augroup END
+
+"--------------- Laravel Specific Commands ---------------"
+"Make it easy to edit the routes file
+nmap <Leader>ler :e routes/web.php<cr>
