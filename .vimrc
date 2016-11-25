@@ -74,3 +74,6 @@ nmap <Leader>ler :e routes/web.php<cr>
 
 "Make it easy to open the configuration file
 nmap <Leader>lec :e config/app.php<cr>
+
+"Make it easy to create a new controller
+nmap <Leader>lmc :!clear && php artisan make:controller
