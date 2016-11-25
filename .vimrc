@@ -83,3 +83,9 @@ nmap <Leader>lm :!clear && php artisan make:
 
 "Make it easy to search for controllers
 nmap <Leader><Leader>c :CtrlP<cr>app/Http/Controllers/
+
+"Make it easy to search for models
+nmap <Leader><Leader>m :CtrlP<cr>app/
+
+"Make it easy to search for views
+nmap <Leader><Leader>v :CtrlP<cr>resources/views/
