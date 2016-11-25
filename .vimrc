@@ -1,5 +1,7 @@
 " be iMproved, required - Lets use the latest vim settings and options
 set nocompatible
+so ~/.vim/plugins.vim
+
 
 "--------------- Visuals ---------------"
 "Enable syntax highlighting
@@ -26,6 +28,7 @@ hi LineNr guibg=bg
 "the color of the split line to red
 hi vertsplit ctermbg=red ctermfg=bg
 hi vertsplit guibg=#96C697 guifg=bg
+
 
 hi StatusLine ctermbg=red ctermfg=white
 hi StatusLineNC ctermbg=black ctermfg=white
@@ -67,6 +70,7 @@ augroup autoindentation
     autocmd FileType scss setlocal shiftwidth=2 tabstop=2
     autocmd FileType rb setlocal shiftwidth=2 tabstop=2
 augroup END
+
 
 "--------------- Laravel Specific Commands ---------------"
 "Make it easy to edit the routes file
