@@ -97,3 +97,7 @@ nmap <Leader><Leader>v :CtrlP<cr>resources/views/
 "--------------- Split Management ---------------"
 set splitbelow
 set splitright
+nmap <Leader>j <C-W><C-J>
+nmap <Leader>k <C-W><C-K>
+nmap <Leader>h <C-W><C-H>
+nmap <Leader>l <C-W><C-L>
