@@ -93,3 +93,7 @@ nmap <Leader><Leader>m :CtrlP<cr>app/
 
 "Make it easy to search for views
 nmap <Leader><Leader>v :CtrlP<cr>resources/views/
+
+"--------------- Split Management ---------------"
+set splitbelow
+set splitright
