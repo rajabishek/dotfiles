@@ -114,3 +114,8 @@ set hlsearch
 
 "Highlight the text as we search for the keyword
 set incsearch
+
+"--------------- Mappings ---------------"
+
+"Make it easy to edit the vimrc file
+nmap <Leader>ev :tabedit $MYVIMRC<cr>
