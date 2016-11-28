@@ -122,3 +122,6 @@ nmap <Leader>ev :tabedit $MYVIMRC<cr>
 
 "Make it easy to edit the snippets file
 nmap <Leader>es :e ~/.vim/snippets/
+
+"Add simple highlight removal
+nmap <Leader><space> :nohlsearch<cr>
