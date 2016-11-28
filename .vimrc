@@ -125,3 +125,6 @@ nmap <Leader>es :e ~/.vim/snippets/
 
 "Add simple highlight removal
 nmap <Leader><space> :nohlsearch<cr>
+
+"Install the plugins through vundle
+nmap <Leader>ip :PluginInstall<cr>
