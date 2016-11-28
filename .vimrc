@@ -111,3 +111,6 @@ hi TabLineSel ctermfg=Red
 "--------------- Search ---------------"
 "Use colors to highlight the search results
 set hlsearch
+
+"Highlight the text as we search for the keyword
+set incsearch
