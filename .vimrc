@@ -105,3 +105,5 @@ nmap <Leader>l <C-W><C-L>
 "--------------- Tab Styles ---------------"
 "Set the color of inactive tabs to blue
 hi TabLine ctermfg=Blue
+"Set the color of the active tab to red
+hi TabLineSel ctermfg=Red
