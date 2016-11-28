@@ -107,3 +107,7 @@ nmap <Leader>l <C-W><C-L>
 hi TabLine ctermfg=Blue
 "Set the color of the active tab to red
 hi TabLineSel ctermfg=Red
+
+"--------------- Search ---------------"
+"Use colors to highlight the search results
+set hlsearch
