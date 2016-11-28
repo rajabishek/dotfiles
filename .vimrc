@@ -119,3 +119,6 @@ set incsearch
 
 "Make it easy to edit the vimrc file
 nmap <Leader>ev :tabedit $MYVIMRC<cr>
+
+"Make it easy to edit the snippets file
+nmap <Leader>es :e ~/.vim/snippets/
