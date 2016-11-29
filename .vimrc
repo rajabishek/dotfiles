@@ -144,3 +144,7 @@ nmap <Leader>rs :call ReloadAllSnippets()<cr>
 "--------------- CtrlP Specific Commands ---------------"
 "Set the files that the ctrlp plugin must ignore
 let g:ctrlp_custom_ignore = 'vendor\|node_modules\|DS_Store\|bower_components\|.sass-cache\|.git\|build'
+
+"Display the search results on top, order it top to bottom, there should be a
+"min of 1 result and maximum of 30, and should see 30 at a time
+let g:ctrlp_match_window = 'top,order:ttb,min:1,max:30,results:30'
