@@ -164,3 +164,12 @@ let NERDTreeHijackNetrw = 0
 
 "Make it easier to toggle NERDTree
 nmap <Leader>1 :NERDTreeToggle<cr>
+
+"--------------- Auto Commands ---------------"
+
+"Automatically source the vimrc file on saving it.
+augroup autosourcing
+    "Clear out the contents of the group before proceeding
+    autocmd!
+    autocmd BufWritePost .vimrc source %
+augroup END
