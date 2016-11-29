@@ -128,3 +128,6 @@ nmap <Leader><space> :nohlsearch<cr>
 
 "Install the plugins through vundle
 nmap <Leader>ip :PluginInstall<cr>
+
+"Make it easy to edit the vundle plugins file
+nmap <Leader>ep :tabedit $HOME/.vim/plugins.vim<cr>
