@@ -151,3 +151,6 @@ let g:ctrlp_match_window = 'top,order:ttb,min:1,max:30,results:30'
 
 "Make it easy to browse the files
 nmap <Leader>p :CtrlP<cr>
+
+"Make it easy to browse the tags on the given file
+nmap <Leader>bt :CtrlPBufTag<cr>
