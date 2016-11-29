@@ -154,3 +154,6 @@ nmap <Leader>p :CtrlP<cr>
 
 "Make it easy to browse the tags on the given file
 nmap <Leader>bt :CtrlPBufTag<cr>
+
+"Make it easy to browser the recent files
+nmap <Leader>rf :CtrlPMRUFiles<cr>
