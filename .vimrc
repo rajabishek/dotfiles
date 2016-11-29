@@ -148,3 +148,6 @@ let g:ctrlp_custom_ignore = 'vendor\|node_modules\|DS_Store\|bower_components\|.
 "Display the search results on top, order it top to bottom, there should be a
 "min of 1 result and maximum of 30, and should see 30 at a time
 let g:ctrlp_match_window = 'top,order:ttb,min:1,max:30,results:30'
+
+"Make it easy to browse the files
+nmap <Leader>p :CtrlP<cr>
