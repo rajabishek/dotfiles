@@ -157,3 +157,10 @@ nmap <Leader>bt :CtrlPBufTag<cr>
 
 "Make it easy to browser the recent files
 nmap <Leader>rf :CtrlPMRUFiles<cr>
+
+"--------------- NERDTree Specific Commands ---------------"
+"Let the - be used by the vim-vinegar plugin
+let NERDTreeHijackNetrw = 0
+
+"Make it easier to toggle NERDTree
+nmap <Leader>1 :NERDTreeToggle<cr>
