@@ -137,3 +137,6 @@ nmap <Leader>ct :tabclose<cr>
 
 "Make it east to open a new tab
 nmap <Leader>ot :tabedit
+
+"Make it easy to reload the snippets
+nmap <Leader>rs :call ReloadAllSnippets()<cr>
