@@ -140,3 +140,7 @@ nmap <Leader>ot :tabedit
 
 "Make it easy to reload the snippets
 nmap <Leader>rs :call ReloadAllSnippets()<cr>
+
+"--------------- CtrlP Specific Commands ---------------"
+"Set the files that the ctrlp plugin must ignore
+let g:ctrlp_custom_ignore = 'vendor\|node_modules\|DS_Store\|bower_components\|.sass-cache\|.git\|build'
