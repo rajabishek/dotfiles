@@ -134,3 +134,6 @@ nmap <Leader>ep :tabedit $HOME/.vim/plugins.vim<cr>
 
 "Make it easier to close a tab
 nmap <Leader>ct :tabclose<cr>
+
+"Make it east to open a new tab
+nmap <Leader>ot :tabedit
